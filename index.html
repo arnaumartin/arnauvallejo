@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src='https://kit.fontawesome.com/4c729db828.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="media.css">
+  <!--Link web animation img -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>PORTFOLIO</title>
+</head>
+
+
+
+<body>
+
+  <!-- CABECERA PRINCIPIO-->
+
+  <div class="section section-white">
+    <div class="header">
+      <div class="container-fluid gx-0">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container">
+            <a class="navbar-brand logo text-uppercase" href="#"><span class="primera-letra-color">A</span>RNAU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#bloque1">SOBRE MI</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#bloque2">PROYECTOS</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#bloque3">HABILIDADES</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#bloque4">CONTACTO</a>
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- CABECERA FINAL-->
+
+
+
+
+
+
+        <!-- INICIO PRINCIPIO-->
+
+        <div class="container">
+          <div class="content-home">
+            <div class="row content-home2">
+              <div class="col-lg-7 col-md-5">
+
+                <div class="box-container">
+                  <img src="arnau.png" class="img-home" alt="banner img">
+                </div>
+
+              </div>
+              <div class="col-lg-5 col-md-7">
+                <div class="box-container2">
+                  <h1 class="home-heading">Hola , soy <span class="home-span"><br>Arnau Martin </span> </h1>
+                  <p class="para-home">
+                    Soy diseñador de aplicaciones web con experiencia en la creación y diseño de sitios web.
+                  </p>
+                  <div class="btn-home">
+                    <a href="cv.pdf" download="cv.pdf" target="_blank" class="home-links">CV</a>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+    <!-- INICIO FINAL-->
+
+
+  </div>
+
+
+
+
+
+
+
+  <!--ABOUT PRINCIPIO-->
+
+
+  <div id="bloque1">
+    <div class="section-blue">
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-2">
+              <h1 class="sub-title">Sobre Mi</h1>
+              <p> Sóc estudiant i la meva experiència laboral es basa en les pràctiques realitzades a l'escola Miquel
+                Marti
+                Pol, com a tècnic de manteniment informàtic. M'agrada treballar en grup i m'adapto als nous reptes.
+              </p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>2022 - 2023</span><br> CFGS DAW - Desarrollo de Aplicaciones WEB (IES Jaume Viladoms.
+                    Sabadell)</li>
+                  <li><span>2020 - 2022</span><br>CFGM Técnico en Sistemas Microinformáticos y Redes (SMX) IES Jaume
+                    Viladoms.</li>
+                  <li><span>2016 - 2020</span><br>Educación Secundaria obligatoria. Escuela del Carmen Vedruna Sabadell
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>2022</span><br>Certificado de Red Hat. IES Jaume Viladoms. Sabadell<br>
+                    Certificado de IT Essentials. IES Jaume Viladoms. Sabadell</li>
+                  <li><span>2021</span><br>Certificado de Exel. IES Jaume Viladoms. Sabadell</li>
+                  <li><span>2020</span><br>Certificado de Word. IES Jaume Viladoms. Sabadell</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2021 - 2022</span><br>Realicé prácticas de mantenimiento informático en el colegio Miquel
+                    Martí Pol de Sabadell.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="about-col-1">
+              <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="screen.jpg" class="d-block carrousel-img w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="screen3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="screen2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+<!--ABOUT FINAL-->
+
+
+
+
+
+
+  <!--PROYECTOS PRINCIPIO-->
+
+  <div id="bloque2">
+    <div class="section-white">
+      <div class="container1">
+        <!-- Primera fila de tarjetas -->
+        <h1 class="sub-title1">PROYECTOS</h1>
+        <div class="row1">
+          <div class="card">
+            <div class="box box1">
+              <div class="content">
+                <img src="w2.jpg" alt="macbook">
+                <h3>Web ¡Photo</h3>
+              </div>
+            </div>
+            <div class="box box2">
+              <div class="content">
+                <p>Web simple creada durante mi tiempo en el instituto. Con un diseño sencillo y atractivo.</p>
+                <a href="#">Ver</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box box1">
+              <div class="content">
+                <img src="ww3.jpg" alt="macbook">
+                <h3>Web SetUp</h3>
+              </div>
+            </div>
+            <div class="box box2">
+              <div class="content">
+                <p>La Landing Page perfecta para captar la atención. Guiando a los visitantes hacia la información clave.</p>
+                <a href="#">Ver</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box box1">
+              <div class="content">
+                <img src="ww4.jpg" alt="macbook">
+                <h3>Web Brand Shoe</h3>
+              </div>
+            </div>
+            <div class="box box2">
+              <div class="content">
+                <p>Explora la esencia de una marca de calzado a través de esta web. Detalles elegantes y visuales.</p>
+                <a href="#">Ver</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Segunda fila de tarjetas -->
+        <div class="row1">
+          <div class="card">
+            <div class="box box1">
+              <div class="content">
+                <img src="ww5.jpg" alt="macbook">
+                <h3>Web Start Dance</h3>
+              </div>
+            </div>
+            <div class="box box2">
+              <div class="content">
+                <p>Da los primeros pasos hacia el mundo de la danza con nuestra web! Con un diseño dinámico.</p>
+                <a href="#">Ver</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box box1">
+              <div class="content">
+                <img src="ww6.jpg" alt="macbook">
+                <h3>Web Trainning</h3>
+              </div>
+            </div>
+            <div class="box box2">
+              <div class="content">
+                <p>Un espacio virtual dedicado al aprendizaje. La web de entrenamiento proporciona recursos educativos de alta calidad.</p>
+                <a href="#">Ver</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box box1">
+              <div class="content">
+                <img src="ww1.jpg" alt="macbook">
+                <h3>Web Felinos </h3>
+              </div>
+            </div>
+            <div class="box box2">
+              <div class="content">
+                <p>Descubre la majestuosidad de los felinos a través de nuestra web dedicada.</p>
+                <a href="#">Ver</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--PROYECTOS FINAL-->
+
+
+
+
+
+  <!-- HABILIDADES PRINCIPIO -->
+
+  <div id="bloque3">
+    <div class="section-blue">
+
+      <h1 class="sub-title2">HABILIDADES</h1>
+
+
+      <div class="contenedor">
+
+        <div class="progess" style="--i:85;--clr:#43f94a;">
+          <h3>85<span>%</span></h3>
+          <h4>HTML</h4>
+        </div>
+
+        <div class="progess" style="--i:62;--clr:#2ccde9;">
+          <h3>62<span>%</span></h3>
+          <h4>CSS</h4>
+        </div>
+
+
+        <div class="progess" style="--i:78;--clr:#ffe047;">
+          <h3>78<span>%</span></h3>
+          <h4>FIGMA</h4>
+        </div>
+
+        <div class="progess" style="--i:62;--clr:#fb297b;">
+          <h3>62<span>%</span></h3>
+          <h4>C++</h4>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- HABILIDADES FINAL -->
+
+
+
+
+
+  <!-- CONTACTO PRINCIPIO -->
+
+
+  <div id="bloque4">
+    <div class="section-white3">
+      <h1 class="sub-title4">CONTACTO</h1>
+      <div class="container3">
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Contáctame</h3>
+            <p class="text">
+              No dudes en contactarme para cualquier pregunta o para discutir una posible colaboración.
+            </p>
+
+            <div class="info">
+              <div class="information">
+                <img src="mp.jpg" class="icon" alt="" />
+                <p>Carrer Viladomat 90 B </p>
+              </div>
+              <div class="information">
+                <img src="gm.jpg" class="icon" alt="" />
+                <p>arnauval17@gmail.com</p>
+              </div>
+              <div class="information">
+                <img src="tel.jpg" class="icon" alt="" />
+                <p>667 61 89 56</p>
+              </div>
+            </div>
+
+            <div class="social-media">
+              <div class="social-icons">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+
+
+            <form action="index.html" autocomplete="off">
+
+              <div class="input-container">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" class="input" />
+            </div>
+            
+            <div class="input-container">
+                <label for="email">Gmail</label>
+                <input type="email" name="email" id="email" class="input" />
+            </div>
+            
+            <div class="input-container">
+                <label for="phone">Teléfono</label>
+                <input type="tel" name="phone" id="phone" class="input" />
+            </div>
+            
+            <div class="input-container textarea">
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" class="input"></textarea>
+            </div>
+            
+            <input type="submit" value="Enviar" class="btn" />
+            
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACTO FINAL -->
+
+
+  
+
+</body>
+
+
+
+
+
+
+<!--Scrip TEXT ABOUT -->
+
+<script>
+
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname) {
+    for (tablink of tablinks) {
+      tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents) {
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+
+
+
+</script>
+
+<!--Link web animate img-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!--script file-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+  integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+
+
+</html>
